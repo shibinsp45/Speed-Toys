@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed-Toys</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- linking bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- font awosome link -->
+    <script src="https://kit.fontawesome.com/a845f12615.js" crossorigin="anonymous"></script>
+    <!-- bootstrap-icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!-- animation tools -->
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+
+<body>
+    <header>
+        <!-- landing-page -->
+        <div id="home" class="landing_page">
+            <!-- nav bar -->
+            <div>
+                <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+                    <div class="container">
+                        <a class=" navbar-brand text-white fs-4" href="#"><span>S</span>peed<span>T</span>oys</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                            </ul>
+
+                            <div class="d-flex">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link active text-white fw-bold" aria-current="page"
+                                            href="#home">Home</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle text-white fw-solid" href="#packages"
+                                            id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                            aria-expanded="false"> Collections
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="#international">Used Cars
+                                                </a></li>
+                                            <li><a class="dropdown-item" href="#">Vintage Cars</a></li>
+                                            <li><a class="dropdown-item" href="#">Latest model Cars</a></li>
+                                            <li><a class="dropdown-item" href="#">Luxury Cars</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">Sell Your car</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white " href="#testimonial">Reviews</a>
+                                    </li>
+                                    <!-- <li class="nav-item">
+                                        <a class="nav-link text-white" href="#services">About us </a> -->
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#support">Support</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="header-content container">
+                <div class="row mt-2">
+                    <div class="col-lg-3 m-4 col-md-6"></div>
+                    <div class="car_quote col-lg-5 col-md-5 col-sm-12">
+                        <p class="animate__animated animate__backInLeft">"Itsn't about the <span>Destination</span> it's about the <span>Ride</span>"<br>
+                        </p>
+                    </div>
+                    <div class="row"></div>
+                    <div class="col-3"></div>
+                    <div class="col-lg-6 col-md-3 justify-center text-center">
+                        <button type="button" class="btn btn-lg  btn-outline-light" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">Enquiry</button>
+
+                    </div>
+                    <div class="col-3"></div>
+                </div>
+
+                <!-- Button trigger modal -->
+
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <form class="ms-5 ">
+                                <h3>Please Fill this:</h3>
+                                <div>
+                                    <label for="exampleInputname" class="form-label mt-3">Enter your Name:</label>
+                                    <input type="name" class="form-control" id="exampleInputname"
+                                        aria-describedby="emailHelp">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputemail" class="form-label mt-3 ">Enter your
+                                        Email:</label>
+                                    <input type="email" class="form-control" id="exampleInputemail"
+                                        aria-describedby="emailHelp">
+                                </div>
+                                <div class="mb-3 text-align-left">
+                                    <label for="exampleInputNumber" class="form-label">Phone Number</label>
+                                    <input type="number" class="form-control" id="exampleInputNumber">
+                                </div>
+                                <br>
+                                <div class="mb-3">
+                                    <select name="" id="" style="border: none; color: gray;">
+                                        <option value="">Choose your car model</option>
+                                        <option value="">Vintage car</option>
+                                        <option value="">Luxury cars</option>
+                                        <option value="">Latest models</option>
+                                    </select>
+                                    <br>
+                                    <div class="mb-3">
+                                        <label for="exampleInputNumber" class="form-label">Expecting Rate</label>
+                                        <input type="number" class="form-control" id="exampleInputNumber">
+                                    </div>
+                                    <button type="submit" class="btn btn-primary text-center">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+    </header>
+    <section class="collections">
+        <div class="text-center  mb- pb-3">
+            <h1 class="animate__animated animate__flipInX text-white">COLLECTIONS</h1>
+        <!-- jelfefq -->
+        <div id="carouselExampleFade" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/car 3.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/car1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/car 2.jpg" class="d-block w-100" alt="...">
+              </div>
+                <div class="carousel-item">
+                    <img src="./assets/car 4.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          
+
+    <section id="packages">
+        <div class="honeymoon">
+            <h2 class="animate__animated animate__flipInX text-white" id="international">USED CARS</h2>
+            <div class="row">
+                <!-- kerala -->
+                <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+                    <div class="package1">
+                        <div class="card mx-auto " style="width: 18rem;">
+                            <img src="./assets/BMW_7series.jpg" class="card-img-top" alt="...">
+                            <div class="card-body with-shadow">
+                                <h5 class="card-title">BMW 7 Series </h5>
+                                <h6>2018 | 27897 Km | Diesel</h6>
+                                <p class="card-text">₹74,50,000</p>
+                                <a href="#" class="btn btn-primary">Let's Talk</a>
+                                <button type="button" class="btn btn-danger">Book Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <div class=" col-lg-3 col-md-6 col-sm-12 mt-5">
+                    <div class="package1">
+                        <div class="card mx-auto " style="width: 18rem;">
+                            <img src="./assets/Audi-Q7.jpg" class="card-img-top" alt="...">
+                            <div class="card-body with-shadow">
+                                <h5 class="card-title">Audi Q7 Series</h5>
+                                <h6>2015 | 67000 Km | Diesel</h6>
+                                <p class="card-text">₹41,00,000</p>
+                                <a href="#" class="btn btn-primary">Let's Talk</a>
+                                <button type="button" class="btn btn-danger">Book Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-3 col-md-6 col-sm-12 mt-5">
+                    <div class="package1">
+                        <div class="card mx-auto " style="width: 18rem;">
+                            <img src="./assets/rr-22.jpg" class="card-img-top" alt="...">
+                            <div class="card-body with-shadow">
+                                <h5 class="card-title">Range Rover</h5>
+                                <h6>2018 | 33000 Km | Diesel</h6>
+                                <p class="card-text">₹53,50,000</p>
+                                <a href="#" class="btn btn-primary">Let's Talk</a>
+                                <button type="button" class="btn btn-danger">Book Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-3 col-md-6 col-sm-12 mt-5">
+                    <div class="package1">
+                        <div class="card mx-auto " style="width: 18rem;">
+                            <img src="./assets//mercedes-s-.jpg" class="card-img-top" alt="...">
+                            <div class="card-body with-shadow">
+                                <h5 class="card-title">Mercides Benz series</h5>
+                                <h6>2015 | 67000 Km | Diesel</h6>
+                                <p class="card-text">₹47,00,000</p>
+                                <a href="#" class="btn btn-primary">Let's Talk</a>
+                                <button type="button" class="btn btn-danger">Book Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+ 
+            </div>
+        </div>
+        <!-- all india packages -->
+        <div id="allindia" class="honeymoon">
+            <h2>VINTAGE CARS</h2>
+            <div class="row">
+                <!-- kerala -->
+                <div class=" col-lg-3 col-md-6 col-sm-12 mt-5">
+                    <div class="package1">
+                        <div class="card mx-auto " style="width: 18rem;">
+                            <img src="./assets//ford-mustang-gta-.jpg" class="card-img-top" alt="...">
+                            <div class="card-body with-shadow">
+                                <h5 class="card-title">Mercides Benz series</h5>
+                                <h6>2015 | 67000 Km | Diesel</h6>
+                                <p class="card-text">₹47,00,000</p>
+                                <a href="#" class="btn btn-primary">Let's Talk</a>
+                                <button type="button" class="btn btn-danger">Book Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- maldives -->
+
+                <div data-aos="flip-left" class=" col-lg-3 col-md-6 col-sm-12 mt-5">
+                    <div class="package1">
+                        <div class="card mx-auto " style="width: 18rem;">
+                            <img src="./assets/fiat-premier-padmini-.jpg" class="card-img-top" alt="...">
+                            <div class="card-body with-shadow">
+                                <h5 class="card-title">Mercides Benz series</h5>
+                                <h6>2015 | 67000 Km | Diesel</h6>
+                                <p class="card-text">₹47,00,000</p>
+                                <a href="#" class="btn btn-primary">Let's Talk</a>
+                                <button type="button" class="btn btn-danger">Book Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-3 col-md-6 col-sm-12 mt-5">
+                    <div class="package1">
+                        <div class="card mx-auto " style="width: 18rem;">
+                            <img src="./assets/HM-Ambassador-1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body with-shadow">
+                                <h5 class="card-title">Mercides Benz series</h5>
+                                <h6>2015 | 67000 Km | Diesel</h6>
+                                <p class="card-text">₹47,00,000</p>
+                                <a href="#" class="btn btn-primary">Let's Talk</a>
+                                <button type="button" class="btn btn-danger">Book Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-3 col-md-6 col-sm-12 mt-5">
+                    <div class="package1">
+                        <div class="card mx-auto " style="width: 18rem;">
+                            <img src="./assets/SKYLINE.jpg" class="card-img-top" alt="...">
+                            <div class="card-body with-shadow">
+                                <h5 class="card-title">Mercides Benz series</h5>
+                                <h6>2015 | 67000 Km | Diesel</h6>
+                                <p class="card-text">₹47,00,000</p>
+                                <a href="#" class="btn btn-primary">Let's Talk</a>
+                                <button type="button" class="btn btn-danger">Book Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section>
+        <h1 class="animate__animated animate__rubberBand text-center mt-5" id="transport">Watch 360° CAR Tour</h1>
+        <div class="video-container">
+            <div class="poster-frame">
+               <a href="https://www.eyerevolution.co.uk/tours/BMW-iX/"><img src="assets//BMW.png" alt></a>
+            </div> 
+        </div>
+    </section>
+    <section id="testimonial" class="test">
+        <div class="container-fluid py-5">
+            <div class="container py-5">
+                <div class="text-center mb- pb-3">
+                    <h1 class="mb-5">"Client Reviews"</h1>
+                    <div class="outerdiv">
+                        <div class="innerdiv">
+                          <!-- div1 -->
+                          <div class="div1 eachdiv">
+                            <div class="userdetails">
+                              <div class="imgbox">
+                                <img src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-daniel.jpg" alt="">
+                              </div>
+                              <div class="detbox">
+                                <p class="name">Daniel Clifford</p>
+                                <p class="designation">Verified Buyer</p>
+                              </div>
+                            </div>
+                            <div class="review">
+                              <h4>I had a fantastic experience at SpeedToys.!. </h4>
+                            <p>“While the selection was decent, and the prices were competitive, the experience was a bit of a mixed bag. The car I bought had a few issues that weren't disclosed upfront, and I had to spend extra on repairs shortly after the purchase. The staff was helpful during the sale, but I wish they were more upfront about the car's condition. So, make sure to get an independent inspection before buying from them "</p>
+                            </div>
+                          </div>
+                          <!-- div2 -->
+                          <div class="div2 eachdiv">
+                            <div class="userdetails">
+                              <div class="imgbox">
+                                <img src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-jonathan.jpg" alt="">
+                              </div>
+                              <div class="detbox">
+                                <p class="name">Jonathan Walters</p>
+                                <p class="designation">Verified Buyer</p>
+                              </div>
+                            </div>
+                            <div class="review">
+                              <h4>I recently purchased a car from ABC Auto Sales. </h4>
+                            <p>“The showroom had a wide selection of vehicles, The buying process was smooth, and they even offered me a limited warranty. I highly recommend to anyone looking for a quality used car.”</p>
+                            </div>
+                          </div>
+                          <!-- div3 -->
+                          <div class="div3 eachdiv">
+                            <div class="userdetails">
+                              <div class="imgbox">
+                                <img src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-kira.jpg" alt="">
+                              </div>
+                              <div class="detbox">
+                                <p class="name dark">Kira Whittle</p>
+                                <p class="designation dark">Verified Graduate</p>
+                              </div>
+                            </div>
+                            <div class="review dark">
+                              <h4> I found my dream car at PQR Autos. </h4>
+                              <p>“The showroom was well-organized, and the sales team was helpful and patient. The car was in great condition, and the purchasing process was hassle-free."”</p>
+                            </div>
+                          </div>
+                          <!-- div4 -->
+                          <div class="div4 eachdiv">
+                            <div class="userdetails">
+                              <div class="imgbox">
+                                <img src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-jeanette.jpg" alt="">
+                              </div>
+                              <div class="detbox">
+                                <p class="name dark">Jeanette Harmon</p>
+                                <p class="designation dark">Verified Graduate</p>
+                              </div>
+                            </div>
+                            <div class="review dark">
+                              <h4>An overall wonderful and rewarding experience</h4>
+                            <p>“ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living while doing something I love. ”</p>
+                            </div>
+                          </div>
+                          <!-- div5 -->
+                          <div class="div5 eachdiv">
+                            <div class="userdetails">
+                              <div class="imgbox">
+                                <img src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-patrick.jpg" alt="">
+                              </div>
+                              <div class="detbox">
+                                <p class="name">Patrick Abrams</p>
+                                <p class="designation">Verified Graduate</p>
+                              </div>
+                            </div>
+                            <div class="review">
+                              <h4> I can't say enough good things about XYZ Autos. </h4>
+                            <p>“ The team there went above and beyond to help me find the perfect car. They were patient, answered all my questions, and never pressured me. I ended up with a fantastic Honda Civic that's been running flawlessly. If you're in the market for a used car, I highly recommend giving XYZ Autos a visit!"”</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+    </section>
+    <section id="services">
+        <div class="services">
+            <h1 id="transport"> 24/7 SUPPORT </h1>
+    </section>
+    <!-- footer -->
+        <footer class="footer-section">
+            <div class="container">
+                <div class="footer-cta pt-5 pb-5">
+                    <div class="row">
+                        <div class="col-xl-4 col-md-4 mb-30">
+                            <div class="single-cta">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div class="cta-text">
+                                    <h4>Find us</h4>
+                                    <span>1010 Avenue, sw 54321, chandigarh</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-4 mb-30">
+                            <div class="single-cta">
+                                <i class="fas fa-phone"></i>
+                                <div class="cta-text">
+                                    <h4>Call us</h4>
+                                    <span>9876543210 0</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-4 mb-30">
+                            <div class="single-cta">
+                                <i class="far fa-envelope-open"></i>
+                                <div class="cta-text">
+                                    <h4>Mail us</h4>
+                                    <span>mail@info.com</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-content pt-5 pb-5">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 mb-50">
+                            <div class="footer-widget">
+                                <div class="footer-logo">
+                                    <a href="index.html"><img src="https://i.ibb.co/QDy827D/ak-logo.png" class="img-fluid" alt="logo"></a>
+                                </div>
+                                <div class="footer-text">
+                                    <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
+                                    elit,Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="footer-social-icon">
+                                    <span>Follow us</span>
+                                    <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                    <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                                    <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                            <div class="footer-widget">
+                                <div class="footer-widget-heading">
+                                    <h3>Useful Links</h3>
+                                </div>
+                                <ul>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">about</a></li>
+                                    <li><a href="#">services</a></li>
+                                    <li><a href="#">portfolio</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#">About us</a></li>
+                                    <li><a href="#">Our Services</a></li>
+                                    <li><a href="#">Expert Team</a></li>
+                                    <li><a href="#">Contact us</a></li>
+                                    <li><a href="#">Latest News</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                            <div class="footer-widget">
+                                <div class="footer-widget-heading">
+                                    <h3>Subscribe</h3>
+                                </div>
+                                <div class="footer-text mb-25">
+                                    <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                                </div>
+                                <div class="subscribe-form">
+                                    <form action="#">
+                                        <input type="text" placeholder="Email Address">
+                                        <button><i class="fab fa-telegram-plane"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                            <div class="copyright-text">
+                                <p>Copyright &copy; 2018, All Right Reserved <a href="https://codepen.io/anupkumar92/">Anup</a></p>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                            <div class="footer-menu">
+                                <ul>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">Terms</a></li>
+                                    <li><a href="#">Privacy</a></li>
+                                    <li><a href="#">Policy</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </footer>
+</body>
+
+</html>
