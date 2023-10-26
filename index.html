@@ -19,6 +19,8 @@
     <!-- animation tools -->
     <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!-- aos animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 </head>
 
@@ -64,10 +66,10 @@
                                         </ul>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link text-white " href="#testimonial">Reviews</a>
+                                        <a class="nav-link text-white " href="#review">Reviews</a>
                                     </li>
-                                    <!-- <li class="nav-item">
-                                        <a class="nav-link text-white" href="#services">About us </a> -->
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#services">About us </a>
                                     <li class="nav-item">
                                         <a class="nav-link text-white" href="#support">Support</a>
                                     </li>
@@ -88,7 +90,7 @@
                     <div class="row"></div>
                     <div class="col-3"></div>
                     <div class="col-lg-6 col-md-3 justify-center text-center">
-                        <button type="button" class="btn btn-lg mb-sm-3 btn-outline-light" data-bs-toggle="modal"
+                        <button type="button" class="btn btn-lg mb-sm-3 btn-outline-danger text-white" data-bs-toggle="modal"
                             data-bs-target="#exampleModal">Enquiry</button>
 
                     </div>
@@ -139,9 +141,10 @@
                     </div>
                 </div>
     </header>
+    
     <section class="collections">
         <div class="text-center  mb- pb-3">
-            <h1 class="animate__animated animate__flipInX text-white">Collections</h1>
+            <h1 class="animate__animated animate__flipInX text-white ms-5">Collections</h1>
         <!-- jelfefq -->
         <div id="carouselExampleFade" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -171,7 +174,7 @@
             <h2 class="animate__animated animate__flipInX text-white" id="luxury">Luxury Cars</h2>
             <div class="row">
                 <!-- kerala -->
-                <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+                <div data-aos="flip-left" class="col-lg-3 col-md-6 col-sm-12 mt-5">
                     <div class="package1">
                         <div class="card mx-auto " style="width: 18rem;">
                             <img src="./assets/ford-mustang-gta-.jpg" class="card-img-top" alt="...">
@@ -185,7 +188,7 @@
                         </div>
                     </div>
                 </div>
-                 <div class=" col-lg-3 col-md-6 col-sm-12 mt-5">
+                 <div data-aos="flip-right" class=" col-lg-3 col-md-6 col-sm-12 mt-5">
                     <div class="package1">
                         <div class="card mx-auto " style="width: 18rem;">
                             <img src="./assets/ferrari.jpg" class="card-img-top" alt="...">
@@ -199,7 +202,7 @@
                         </div>
                     </div>
                 </div>
-                <div class=" col-lg-3 col-md-6 col-sm-12 mt-5">
+                <div data-aos="flip-left" class=" col-lg-3 col-md-6 col-sm-12 mt-5">
                     <div class="package1">
                         <div class="card mx-auto " style="width: 18rem;">
                             <img src="./assets/toyota-supra-rocket-bunny.jpg" class="card-img-top" alt="...">
@@ -213,7 +216,7 @@
                         </div>
                     </div>
                 </div>
-                <div class=" col-lg-3 col-md-6 col-sm-12 mt-5">
+                <div data-aos="flip-right" class=" col-lg-3 col-md-6 col-sm-12 mt-5">
                     <div class="package1">
                         <div class="card mx-auto " style="width: 18rem;">
                             <img src="./assets/SKYLINE.jpg" class="card-img-top" alt="...">
@@ -236,7 +239,7 @@
         <div id="premium" class="luxury">
             <h2 class="animate__animated animate__bounceInUp">Premium Cars</h2>
             <div class="row">
-                <div class=" col-lg-3 col-md-6 col-sm-12 mt-5">
+                <div  data-aos="flip-left" class=" col-lg-3 col-md-6 col-sm-12 mt-5">
                     <div class="package1">
                         <div class="card mx-auto " style="width: 18rem;">
                             <img src="./assets/BMW_7series.jpg" class="card-img-top" alt="...">
@@ -250,7 +253,7 @@
                         </div>
                     </div>
                 </div>
-                <div data-aos="flip-left" class=" col-lg-3 col-md-6 col-sm-12 mt-5">
+                <div data-aos="flip-right" class=" col-lg-3 col-md-6 col-sm-12 mt-5">
                     <div class="package1">
                         <div class="card mx-auto " style="width: 18rem;">
                             <img src="./assets//aston-martin" class="card-img-top" alt="...">
@@ -264,7 +267,7 @@
                         </div>
                     </div>
                 </div>
-                <div class=" col-lg-3 col-md-6 col-sm-12 mt-5">
+                <div data-aos="flip-left" class=" col-lg-3 col-md-6 col-sm-12 mt-5">
                     <div class="package1">
                         <div class="card mx-auto " style="width: 18rem;">
                             <img src="./assets/mercedes-s-.jpg" class="card-img-top" alt="...">
@@ -278,7 +281,7 @@
                         </div>
                     </div>
                 </div>
-                <div class=" col-lg-3 col-md-6 col-sm-12 mt-5">
+                <div data-aos="flip-right" class=" col-lg-3 col-md-6 col-sm-12 mt-5">
                     <div class="package1">
                         <div class="card mx-auto " style="width: 18rem;">
                             <img src="./assets/Audi-Q7.jpg" class="card-img-top" alt="...">
@@ -312,7 +315,7 @@
                     <div class="outerdiv">
                         <div class="innerdiv">
                           <!-- div1 -->
-                          <div class="div1 eachdiv">
+                          <div data-aos="zoom-out-right" class="div1 eachdiv">
                             <div class="userdetails">
                               <div class="imgbox">
                                 <img src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-daniel.jpg" alt="">
@@ -326,9 +329,9 @@
                               <h4>I had a fantastic experience at SpeedToys.!</h4>
                             <p>“While the selection was decent, and the prices were competitive, the experience was a bit of a mixed bag. The car I bought had a few issues that weren't disclosed upfront, and I had to spend extra on repairs shortly after the purchase. The staff was helpful during the sale, but I wish they were more upfront about the car's condition. So, make sure to get an independent inspection before buying from them "</p>
                             </div>
-                          </div>
+                        </div>
                           <!-- div2 -->
-                          <div class="div2 eachdiv">
+                          <div data-aos="zoom-out-right"  class="div2 eachdiv">
                             <div class="userdetails">
                               <div class="imgbox">
                                 <img src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-jonathan.jpg" alt="">
@@ -344,7 +347,7 @@
                             </div>
                           </div>
                           <!-- div3 -->
-                          <div class="div3 eachdiv">
+                          <div data-aos="zoom-out-left" class="div3 eachdiv">
                             <div class="userdetails">
                               <div class="imgbox">
                                 <img src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-kira.jpg" alt="">
@@ -360,7 +363,7 @@
                             </div>
                           </div>
                           <!-- div4 -->
-                          <div class="div4 eachdiv">
+                          <div data-aos="zoom-out-left"class="div4 eachdiv">
                             <div class="userdetails">
                               <div class="imgbox">
                                 <img src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-jeanette.jpg" alt="">
@@ -376,7 +379,7 @@
                             </div>
                           </div>
                           <!-- div5 -->
-                          <div class="div5 eachdiv">
+                          <div data-aos="zoom-out-left" class="div5 eachdiv">
                             <div class="userdetails">
                               <div class="imgbox">
                                 <img src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-patrick.jpg" alt="">
@@ -393,6 +396,74 @@
                           </div>
                         </div>
                       </div>
+    </section>
+    <section class="services">
+        <h1 class="animate__animated animate__rubberBand text-center text-white" id="services">About us</h1>
+      <div class="ag-format-container">
+            <div class="ag-courses_box">
+              <div class="ag-courses_item">
+                <a href="#" class="ag-courses-item_link">
+                  <div class="ag-courses-item_bg"></div>
+          
+                  <div class="ag-courses-item_title">
+                       We take pride in 3000+Cars Sold
+                  </div>
+          
+                </a>
+              </div>
+          
+              <div class="ag-courses_item">
+                <a href="#" class="ag-courses-item_link">
+                  <div class="ag-courses-item_bg"></div>
+          
+                  <div class="ag-courses-item_title">
+                   Qualilty Assuarance
+                  </div>
+                </a>
+              </div>
+          
+              <div class="ag-courses_item">
+                <a href="#" class="ag-courses-item_link">
+                  <div class="ag-courses-item_bg"></div>
+          
+                  <div class="ag-courses-item_title">
+                   Easy Financial Plans
+                  </div>
+                </a>
+              </div>
+          
+              <div class="ag-courses_item">
+                <a href="#" class="ag-courses-item_link">
+                  <div class="ag-courses-item_bg"></div>
+          
+                  <div class="ag-courses-item_title">
+                    Assured Perks
+                  </div>
+                </a>
+              </div>
+          
+              <div class="ag-courses_item">
+                <a href="#" class="ag-courses-item_link">
+                  <div class="ag-courses-item_bg"></div>
+          
+                  <div class="ag-courses-item_title">
+                    Finest Customer Service
+                  </div>
+                </a>
+              </div>
+          
+              <div class="ag-courses_item">
+                <a href="#" class="ag-courses-item_link">
+                  <div class="ag-courses-item_bg"></div>
+          
+                  <div class="ag-courses-item_title">
+                  150+Bonus points
+                  </div>
+                </a>
+              </div>
+              </div>
+            </div>
+          </div>
     </section>
     <!-- footer -->
     <footer class="footer-section">
@@ -491,8 +562,10 @@
                     </div>
                 </div>
             </div>
-        </footer>
     </footer>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
