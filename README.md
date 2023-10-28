@@ -1,5 +1,5 @@
 
-## Speed-Toys: Streamlining Your Car Selling and Upgrading Experience
+## Speed-Toys: Streamlining Your Car 
 
 Selling your car and upgrading to a new one should be exciting, not exhausting. **SpeedToys** is your ultimate solution to make this process smoother, more rewarding, and hassle-free.
 
