@@ -21,9 +21,14 @@
     font-size: 3rem;
 }
 .navbar-brand{
-    color:rgb(239, 233, 233);
+    color:rgb(236, 236, 236);
     font-size:2rem;
 }
+.navbar-brand:hover {
+  background-color: #88868600; 
+  color: rgba(255, 0, 0, 0.927); 
+}
+
 .header-content {
     text-align: center;
 }
